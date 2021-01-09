@@ -1,1 +1,3 @@
+Little Search Engine Project
 
+Using Hash Maps and Hash Tables, I loaded in all words from a multiple given text documents, ignoring "noise words" (given in a seperate file). From there I grouped together words based on how many times they occured within each document into an "Occurrence" Object. Using this Hash Table of Occurrences, I could implement the method top5search. It computed the search result for two input words, using the hash table. The result is a list of names of documents (same as name of the text file for that document), limited to the top 5 in which either of the words occurs, arranged in descending order of frequencies. 
